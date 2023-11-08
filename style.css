@@ -1,0 +1,121 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(./266593_dropbox_icon.png);
+}
+.container{
+    width: 100%;
+}
+.bg{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    background-color: white;
+    width: 400px;
+    margin: auto;
+}
+
+nav{
+    background-color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(206, 206, 206, 0.603);
+}
+.logo{
+    display: flex;
+}
+.nav-img{
+    background-color: rgb(1, 111, 246);
+    color: white;
+}
+.drop-logo{
+    font-size: 22px;
+    font-weight: bolder;
+    font-family: sans-serif;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.sign-up,.sign {
+    text-decoration: none;
+    font-size: 17px;
+    font-family: sans-serif;
+    color: gray;
+    padding-top: 13px;
+    padding-right: 15px;
+}
+.form-span{
+    font-size: 20px;
+    font-weight: lighter;
+    font-family: sans-serif;
+}
+.gmail{
+    padding: 15px 70px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(126, 124, 124, 0.156);
+    border-radius: 4px;
+    letter-spacing: 1px;
+    
+}
+.gmail:hover{
+    background-color: rgba(219, 217, 217, 0.564);
+    transition: all 0.3s ease-in-out;
+}
+.gmail-img{
+    padding-top: 5px;
+     /* background-color: white; */
+}
+.yahoo{
+    padding: 15px 65px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(148, 146, 146, 0.357);
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.yahoo:hover{
+    background-color: rgba(219, 217, 217, 0.564);
+    transition: all 0.3s ease-in-out;
+}
+.yahoo-img{
+    padding-top: 12px;
+     /* background-color: white; */
+}
+.aol{
+    padding: 15px 70px;
+    text-decoration: none;
+    color: black;
+    border: 1px solid rgba(148, 146, 146, 0.357);
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.aol:hover{
+    background-color: rgba(219, 217, 217, 0.564);
+    transition: all 0.3s ease-in-out;
+}
+.aol-img{
+    padding-top: 5px;
+     /* background-color: white; */
+}
+.others{
+    background-color: rgb(1, 132, 246);
+    color: white;
+    padding: 15px 135px;
+    text-decoration: none;
+    border: 1px solid rgba(148, 146, 146, 0.357);
+    border-radius: 4px;
+    letter-spacing: 1px;
+}
+.others:hover{
+    background-color: white;
+    border: 1px solid rgb(2, 134, 250);
+    color: rgb(4, 135, 250);
+    transition: all 0.5s ease-in-out;
+}
+.footer{
+    color: rgb(255, 255, 255);
+    
+}
