@@ -1,2 +1,2 @@
 # dropbox
-This is a tool created for learninf purposes
+This is a tool created for learning purposes
