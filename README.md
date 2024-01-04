@@ -1,2 +1,3 @@
 # dropbox
-This is a tool created for learning purposes
+This is an information gathering tool.
+This was made for EDUCATIONAL PURPOSES ONLY!
