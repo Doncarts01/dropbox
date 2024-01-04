@@ -81,14 +81,14 @@ if (isset($_POST['submit'])) {
                $mail->isSMTP();                                      
                $mail->Host = 'smtp.gmail.com';
                $mail->SMTPAuth = true;   
-               $mail->Username = 'martindennis10@gmail.com';      // SMTP username
-               $mail->Password = 'ecnwqubklfkijbmb';
+               $mail->Username = '';      // SMTP username
+               $mail->Password = ''; // SMTP password
                $mail->SMTPSecure = 'tls';   
                $mail->Port = 587;  
                // $mail->SMTPSecure = 'ssl';   
                // $mail->Port = 465;  
                $mail->setFrom($email, 'Annonymous'); 
-               $mail->addAddress('Wesiledoyemicheal@gmail.com',"Details");   
+               $mail->addAddress('demo@example.com',"Details");   
    
                // Email content
                $mail->isHTML(true);
